@@ -1,0 +1,19 @@
+.parrafo1{
+    background-color: #0e8b12;
+
+}
+
+.parrafo2 {
+    background-color:#00ffff;
+}
+p{
+    text-align: justify;
+    text-decoration: underline;
+    letter-spacing: 2px; 
+    word-spacing: 15px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+body{
+    margin: 50px;
+}

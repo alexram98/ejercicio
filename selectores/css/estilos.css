@@ -1,0 +1,59 @@
+/*SELECTOR UNIVERSAL*/
+
+/**{
+    background-color: bisque;
+
+}*/
+
+/*SELECTOR DE ETIQUETA*/
+body{
+    background-color: rgb(183, 176, 189);
+}
+h1{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/*SELECTOR DE CLASE*/
+
+.imagen{
+    width: 15%;
+    height: 10%;
+    border: 5px solid rgb(7, 77, 48);
+}
+.imagenM{
+    width: 15%;
+    height: 10%;
+    border: 5px solid rgb(232, 23, 204);
+}
+
+/*SELECTOR DE IDENTIFICADOR*/
+
+#titulo{
+    background-color: brown;
+}
+
+/*SELECTOR DESCENDIENTE*/
+section ul{
+    background-color: rgb(129, 223, 36);
+}
+
+/*SELECTOR DESCENDIENTE*/
+
+h3,p{
+    background-color: yellowgreen;
+}
+
+/*SELECTOR HIJO*/
+
+section>h2{
+    background-color: black;
+    color: white;
+}
+
+/*SELECTOR ADYACENTE*/
+
+P+DIV{
+    background-color: khaki;
+}

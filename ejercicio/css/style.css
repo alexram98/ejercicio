@@ -1,0 +1,86 @@
+/*SELECTOR UNIVERSAL*/
+
+/**{
+    background-color: bisque;
+
+}*/
+
+/*SELECTOR DE ETIQUETA*/
+body {
+    background-color:rgb(187, 176, 192);
+    
+
+}
+
+h1 {
+    background-color: rgb(173, 184, 115);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*SELECTOR DE CLASE*/
+
+.imagen {
+    width: 15%;
+    height: 10%;
+    border: 5px solid rgb(13, 4, 139);
+}
+
+.imagenM {
+    width: 15%;
+    height: 10%;
+    border: 5px solid rgb(2, 122, 26);
+}
+
+/*SELECTOR DE IDENTIFICADOR*/
+
+#titulo {
+    background-color: rgb(50, 165, 42);
+}
+
+/*SELECTOR DESCENDIENTE*/
+section ul {
+    background-color: rgb(192, 84, 181);
+}
+
+/*SELECTOR DESCENDIENTE*/
+
+h3,
+p {
+    background-color: rgb(157, 83, 114);
+}
+
+/*SELECTOR HIJO*/
+
+section>h2 {
+    background-color: white;
+    color: black;
+}
+
+/*SELECTOR ADYACENTE*/
+
+p+div {
+    background-color: rgb(21, 199, 243);
+}
+.parrafo1 {
+    background-image: url("../../ejercicio/css/pajaro.webp");
+
+}
+
+.parrafo2 {
+    background-color: #052565ad;
+}
+
+p {
+    text-align: justify;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 50px;
+}
